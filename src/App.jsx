@@ -1,19 +1,25 @@
+import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import PriceOptions from './Components/PriceOptions/PriceOptions';
 
 
-import './App.css'
-import DaisyUi from './assets/Components/Navbar/DaisyUi/DaisyUi';
-import Navbar from './assets/Components/Navbar/Navbar';
 
 function App() {
   
 
   return (
     <>
+     <Navbar></Navbar>
+     <h1 className='text-5xl bg-red-400 text-center'>Courses Price</h1>
+     <PriceOptions></PriceOptions>
       
-      <Navbar></Navbar>
-      <DaisyUi></DaisyUi>
     </>
-  );
-};
+  )
+}
+
+
+
+
+
 
 export default App
